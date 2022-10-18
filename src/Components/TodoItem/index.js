@@ -5,9 +5,10 @@ class TodoItem extends Component {
     render() {
         const {todoItem,deleteTodo,id} = this.props
         const {title} = todoItem
-        const deleteTodoItem = () => {
+        const deleteTodoItem =()=> {
             deleteTodo(id)
         }
+        
         return (
             <li className='todo-item-container'>
                 <p className='title'>{title}</p>

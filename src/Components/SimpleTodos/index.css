@@ -1,23 +1,28 @@
 .bg-container {
-    background-color: #ffa1e6;
+    background-image: linear-gradient(rgb(249, 186, 255), rgb(255, 255, 160));
     padding: 45px;
     height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-size: cover;
   }
   
   .card-1 {
+    background-image: linear-gradient(rgb(255, 255, 160),rgb(249, 186, 255));
     border-radius: 15px;
     background-color: #8cecef;
     display: flex;
     flex-direction: column;
     width: 80vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
   .heading-1 {
-    color: #ff0b37;
+    color: #ff0000;
     font-family: 'Roboto';
     text-align: center;
+    color: coral;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }

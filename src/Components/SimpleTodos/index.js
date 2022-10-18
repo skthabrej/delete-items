@@ -41,9 +41,9 @@ const initialTodosList = [
     state = {todoList:initialTodosList}
 
     deleteTodo = id => {
-        const {todoList} = this.state
-        const filteredTododsList = todoList.filter(each => each.id !== id)
-        this.setState({todoList:filteredTododsList})
+      const {todoList} = this.state
+      const filteredTodo = todoList.filter(each => each.id !== id)
+      this.setState({todoList:filteredTodo})
     }
 
     render() {

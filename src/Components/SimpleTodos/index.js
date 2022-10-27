@@ -51,7 +51,7 @@ const initialTodosList = [
         return (
             <div className='bg-container'>
                 <div className='card-1'>
-                    <h1 className='heading-1'>Simple Todos</h1>
+                    <h1 className='heading-1'>Delete Items</h1>
                     <ul className='todos-container'>
                         {todoList.map(eachTodo => (
                             <TodoItem 
